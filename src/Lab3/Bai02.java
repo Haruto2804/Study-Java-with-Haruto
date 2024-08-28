@@ -15,6 +15,7 @@ public class Bai02 {
 		for (int i = 1; i < 11; i++) {
 			System.out.println(n + " x " + i + " = " + n * i);
 		}
+		scanner.close();
 
 	}
 

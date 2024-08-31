@@ -27,12 +27,12 @@ import java.util.regex.Pattern;
 public class RegEx {
 	public static void main(String[] args) {
 		//=====REGEX=======
-		String idPattern = "\\ d{12}";
+		String idPattern = "\\d{12}";
 		String passwordPattern = "\\w{6,}";
 		String emailPattern = "^([\\w.-]+)@([A-Za-z0-9.-]+\\.[A-Za-z]{2,}$)";
 		//=====String=======
-		String ID = "079205008542";
-		String password = "123456";
+		String ID = "123456789012";
+		String password = "Haruto2804";
 		String email = "baokhongwibu2005@gmail.com";
 		//=====PATTERN=======
 		Pattern idRegex = Pattern.compile (idPattern);

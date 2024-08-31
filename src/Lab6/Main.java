@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner (System.in);
+		Student stu = new Student ();
+		stu.ID_and_Password();//username: haruto2804 and password > 6 characters
 		Student stu1 = new Student ("Eimi Fukuda","DH52300932");
 		Student stu2 = new Student ("Yua Mikami","DH59588479");
 		Student stu3 = new Student ("Karen Kaede","DH59359235");
@@ -32,5 +34,6 @@ public class Main {
 		
 	}
 		scanner.close ();
+		
 }
 }

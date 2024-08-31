@@ -28,6 +28,9 @@ public class Student {
 	private String password;
 	String trim1,trim2; // trim2 is password and trim1 is username;
 	Scanner scanner = new Scanner (System.in);
+	Student () {
+		
+	}
 	public Student (String name, String ID) {
 		this.name = name;
 		this.ID = ID;
